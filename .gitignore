@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/vendor/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Database password file accidentally created
+PGPASSWORD=*
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+
+# Logs and caches
+*.log
+.vite/
+coverage/
+
+# Operating system
+.DS_Store
+Thumbs.db
